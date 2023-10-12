@@ -1,0 +1,100 @@
+.Registration-form-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+}
+.form-container {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 100px;
+}
+.form-items-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.input-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+.input-box {
+  font-size: 16px;
+  height: 40px;
+  width: 280px;
+  border: 1px solid #cbd2d9;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 7px;
+  outline: none;
+  border-radius: 7px;
+}
+.error-msg {
+  margin-top: -1px;
+}
+.button-container {
+  margin-top: 20px;
+}
+.submit-button {
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  border: 0px;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.submitted-image {
+  margin-bottom: 10px;
+}
+.submitted-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.submit-another-response-button {
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  border: 0px;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.input-box.blurred-input {
+  border-color: red; /* Border color for blurred input */
+  filter: blur(4px); /* Blur effect for input */
+}
+
+.error-msg.red-text {
+  color: red; /* Text color for 'Required' error message */
+}
